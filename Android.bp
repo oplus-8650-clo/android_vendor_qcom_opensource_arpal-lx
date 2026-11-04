@@ -115,6 +115,7 @@ cc_library_shared {
     export_include_dirs: ["inc"],
 
     include_dirs: [
+        "kernel_platform/msm-kernel/include/uapi/misc",
         "system/media/audio/include",
         "system/media/audio_route/include",
     ],
